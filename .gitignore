@@ -1,3 +1,7 @@
+# Custom
+*.jpg
+*.txt
+
 # Prerequisites
 *.d
 
