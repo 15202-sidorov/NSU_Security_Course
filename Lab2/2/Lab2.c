@@ -16,14 +16,14 @@
 	RC5 block ciphering algorithm.
 */
 
-#define RC5_BLOCK_T		uint64_t								// Block type.
-#define RC5_W   		32 										// Half the block size in BITS.
-#define RC5_WORD_T 		uint32_t								// Word type.
-#define RC5_B   		8	 									// Length of the key in BYTES.
-#define RC5_R   		16 										// Amount of rounds.
-#define RC5_C   		(RC5_B*8)/RC5_W									// Size of key in words.
+#define RC5_BLOCK_T		uint64_t            // Block type.
+#define RC5_W   		32 	            // Half the block size in BITS.
+#define RC5_WORD_T 		uint32_t            // Word type.
+#define RC5_B   		8	            // Length of the key in BYTES.
+#define RC5_R   		16 	            // Amount of rounds.
+#define RC5_C   		(RC5_B*8)/RC5_W     // Size of key in words.
 
-#define RC5_P   		0xb7e15163								// Magical constants for 32 bits word size.
+#define RC5_P   		0xb7e15163	    // Magical constants for 32 bits word size.
 #define RC5_Q   		0x9e3779b9
 
 
