@@ -139,6 +139,7 @@ int main(int argc, char **argv) {
 	while (1) {
 		bytes_read = fread(input_block, sizeof(RC5_WORD_T), 2, input_file);
 		if (0 == bytes_read) {
+			printf("Hashcode: %u\n", output_block[1]);
 			break;
 		}
 		
